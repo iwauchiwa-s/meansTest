@@ -20,7 +20,19 @@ meansTest(av1, sd1, nd1, av2, sd2, nd2)
 \item{nd2}{number of group 2}
 }
 \value{
-stats results
+dav stats results
+
+cohen_d stats results
+
+t stats results
+
+pv stats results
+
+cl_l stats results
+
+cl_u stats results
+
+txj stats results
 }
 \description{
 \code{meansTest} statistical test for mean values

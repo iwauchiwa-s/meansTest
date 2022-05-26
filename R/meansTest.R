@@ -1,13 +1,21 @@
 #' @title Significance test for difference between 2 mean values
 #' @description \code{meansTest} statistical test for mean values
 #'
+#' @importFrom stats pt
+#' @importFrom stats qt
 #' @param av1 mean value of group 1
 #' @param sd1 standard deviation of group 1
 #' @param nd1 number of group 1
 #' @param av2 mean value of group 2
 #' @param sd2 standard deviation of group 2
 #' @param nd2 number of group 2
-#' @return stats results
+#' @return dav stats results
+#' @return cohen_d stats results
+#' @return t stats results
+#' @return pv stats results
+#' @return cl_l stats results
+#' @return cl_u stats results
+#' @return txj stats results
 #' @export
 #' @examples
 #' # meansTest(60, 10, 20, 55, 15, 25)
