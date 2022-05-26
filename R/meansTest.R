@@ -10,6 +10,7 @@
 #' @param sd2 standard deviation of group 2
 #' @param nd2 number of group 2
 #' @return Deviation Deviation of 2 mean values
+#' @return Cohens_d Cohens-d
 #' @export
 #' @examples
 #' # meansTest(60, 10, 20, 55, 15, 25)
