@@ -32,6 +32,6 @@ meansTest <- function(av1, sd1, nd1, av2, sd2, nd2){
   else{
     txj <- 0 # insignificant
   }
-  return(list(dav, cohen_d, t, pv, cl_l, cl_u, txj))
+  return(list(Deviation=dav, Cohens_d=cohen_d, t_value=t, P_value=pv, lower_lim=cl_l, upper_lim=cl_u, judge=txj))
 }
 
