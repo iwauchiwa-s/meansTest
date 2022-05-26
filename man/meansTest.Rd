@@ -20,7 +20,7 @@ meansTest(av1, sd1, nd1, av2, sd2, nd2)
 \item{nd2}{number of group 2}
 }
 \value{
-Deviation Deviation of 2 mean values, Cohens_d Cohens-d,
+Stats test
 }
 \description{
 \code{meansTest} statistical test for mean values
