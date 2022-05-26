@@ -20,7 +20,6 @@
 #' @examples
 #' # meansTest(60, 10, 20, 55, 15, 25)
 
-
 meansTest <- function(av1, sd1, nd1, av2, sd2, nd2){
   dav <- abs(av1-av2)
   var1 <- sd1^2
