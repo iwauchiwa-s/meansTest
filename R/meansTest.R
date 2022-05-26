@@ -9,13 +9,7 @@
 #' @param av2 mean value of group 2
 #' @param sd2 standard deviation of group 2
 #' @param nd2 number of group 2
-#' @return dav 1:deviation of mean values
-#' @return cohen_d 2:Cohen's d
-#' @return t 3:t-value
-#' @return pv 4:P-value P(T<t)
-#' @return cl_l 5:95% CI lower limit
-#' @return cl_u 6:95% CI upper limit
-#' @return txj 7:flag(1 or 0) for significance/insignificance
+#' @return deviation of mean values,cohen's d,t-value,P-value,CI lower limit,CI upper limit,significance/insignificance
 #' @export
 #' @examples
 #' # meansTest(60, 10, 20, 55, 15, 25)
