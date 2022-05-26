@@ -21,6 +21,18 @@ meansTest(av1, sd1, nd1, av2, sd2, nd2)
 }
 \value{
 dav deviation
+
+cohen_d cohen's-d
+
+t t-value
+
+pv P-value
+
+cl_l CI_lower_limit
+
+cl_u CI_upper_limit
+
+txj significant_or_not
 }
 \description{
 \code{meansTest} statistical test for mean values

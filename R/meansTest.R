@@ -10,6 +10,12 @@
 #' @param sd2 standard deviation of group 2
 #' @param nd2 number of group 2
 #' @return dav deviation
+#' @return cohen_d cohen's-d
+#' @return t t-value
+#' @return pv P-value
+#' @return cl_l CI_lower_limit
+#' @return cl_u CI_upper_limit
+#' @return txj significant_or_not
 #' @export
 #' @examples
 #' # meansTest(60, 10, 20, 55, 15, 25)
