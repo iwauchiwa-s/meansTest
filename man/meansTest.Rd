@@ -20,19 +20,19 @@ meansTest(av1, sd1, nd1, av2, sd2, nd2)
 \item{nd2}{number of group 2}
 }
 \value{
-dav stats results
+dav 1:deviation of mean values
 
-cohen_d stats results
+cohen_d 2:Cohen's d
 
-t stats results
+t 3:t-value
 
-pv stats results
+pv 4:P-value P(T<t)
 
-cl_l stats results
+cl_l 5:95\% CI lower limit
 
-cl_u stats results
+cl_u 6:95\% CI upper limit
 
-txj stats results
+txj 7:flag(1 or 0) for significance/insignificance
 }
 \description{
 \code{meansTest} statistical test for mean values

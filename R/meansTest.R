@@ -9,13 +9,13 @@
 #' @param av2 mean value of group 2
 #' @param sd2 standard deviation of group 2
 #' @param nd2 number of group 2
-#' @return dav stats results
-#' @return cohen_d stats results
-#' @return t stats results
-#' @return pv stats results
-#' @return cl_l stats results
-#' @return cl_u stats results
-#' @return txj stats results
+#' @return dav 1:deviation of mean values
+#' @return cohen_d 2:Cohen's d
+#' @return t 3:t-value
+#' @return pv 4:P-value P(T<t)
+#' @return cl_l 5:95% CI lower limit
+#' @return cl_u 6:95% CI upper limit
+#' @return txj 7:flag(1 or 0) for significance/insignificance
 #' @export
 #' @examples
 #' # meansTest(60, 10, 20, 55, 15, 25)
