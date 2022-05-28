@@ -2,8 +2,8 @@ Package: meansTest
 Type: Package
 Title: What the Package Does (Title Case)
 Version: 0.0.1
-Author: Satoshi Sugawara
-Maintainer: Satoshi Sugawara <sugawara@staff.miyakyo-u.ac.jp>
+Author: S. S.
+Maintainer: S. S. <maintainer@xxx.xxx.xx>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
 License: MIT + file LICENSE
